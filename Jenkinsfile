@@ -18,7 +18,7 @@ stages {
      steps {
 
        echo "This is Staging Stage:" 
-       sh 'mvnproject clean package checkstyle:checkstyle'
+       sh 'mvn clean package checkstyle:checkstyle'
 
      }
     post {
