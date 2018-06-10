@@ -46,5 +46,18 @@ stages {
        
      }
  }
+
+ stage('Production Stage:') {
+
+     steps {
+
+       echo "This is Production Stage:" 
+       build 'Production Server'
+       
+       echo "Successfully Deployed:"
+       
+     }
+ }
+
 }
 }
