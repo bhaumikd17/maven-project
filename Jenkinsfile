@@ -30,12 +30,8 @@ stages {
         archiveArtifacts '**/*.war'
         echo "JUnit Report"
         junit '**/target*surefire-report/*.xml'
-
-
     }
-
-
-    }
+  }
  }
 
  stage('Deployment Stage:') {
@@ -47,15 +43,6 @@ stages {
        echo "Successfully Deployed:"
        
      }
-
  }
-
 }
-
-}
-
-
-
-
-
 }
