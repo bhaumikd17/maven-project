@@ -1,9 +1,1 @@
-Hello, World !!
-Welcome to Jenkins Training !!
-It's Saturday new day and new start.
-
-It's challange to learn Jenkins !
-
-
-
-Hey welcome !!
+New changes using pipeline on 10th June,2018
