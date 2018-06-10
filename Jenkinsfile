@@ -51,10 +51,15 @@ stages {
 
      steps {
 
+       timeout(1) 
+       {
+          input 'Would you like to deploy? '
+
+       }
        echo "This is Production Stage:" 
        build 'Production Server'
-       
-       echo "Successfully Deployed:"
+
+       //echo "Successfully Deployed:"
        
      }
  }
