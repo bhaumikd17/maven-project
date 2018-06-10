@@ -28,6 +28,9 @@ stages {
         checkstyle canComputeNew: false, defaultEncoding: '', healthy: '', pattern: 'checkstyle:checkstyle', unHealthy: ''
         echo "Archive Artifacts"
         archiveArtifacts '**/*.war'
+        echo "JUnit Report"
+        junit '**/target*surefire-report/*.xml'
+
 
     }
 
