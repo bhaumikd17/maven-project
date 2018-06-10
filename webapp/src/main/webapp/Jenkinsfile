@@ -3,8 +3,6 @@ agent any
 tools {
 jdk 'Java_8'
 maven 'mvnproject'
-
-
 }
 stages {
 
