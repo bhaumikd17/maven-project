@@ -29,7 +29,9 @@ stages {
         echo "Archive Artifacts"
         archiveArtifacts '**/*.war'
         echo "JUnit Report"
-        junit '**/target*surefire-report/*.xml'
+        //junit '**/target*surefire-report/*.xml'
+        junit '**/target/surefire-report/*.xml'
+
     }
   }
  }
